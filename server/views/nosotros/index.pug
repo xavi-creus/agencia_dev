@@ -1,0 +1,27 @@
+extends ../layout/index
+block contenido
+    //- h1 #{pagina}
+    main.container.mt-5
+        .row
+            .col-md-5
+                img.img-fluid(src="img/nosotros.jpg", alt="Imagén nosotros")
+            .col-md-7
+                h1= pagina
+                blockquote Pellentesque ullamcorper lacus ut libero lobortis porta. In hendrerit nulla mauris, nec interdum sem vestibulum quis. Nunc non felis feugiat quam efficitur blandit.
+                p Sed fermentum, nibh sed vestibulum tincidunt, lectus lorem suscipit turpis, ut varius odio metus vel quam. Nulla quis ultricies erat, posuere hendrerit diam. Nulla pellentesque tincidunt mauris, id venenatis mi vehicula ut. Curabitur auctor pharetra ipsum convallis blandit. Etiam quis leo nec ante laoreet consequat. Vivamus ac porta nunc. Quisque sit amet blandit eros. Integer vel pulvinar ipsum.
+                p Duis maximus tortor a tincidunt viverra. Sed elementum tellus in nunc maximus, a mattis sapien scelerisque. In dictum, libero in lacinia suscipit, purus nibh iaculis eros, aliquet tincidunt dolor mauris eget mauris. Mauris lacinia lobortis libero eu ornare. Pellentesque at congue justo. Fusce venenatis arcu sit amet metus pulvinar, in tempor nulla vestibulum. Aliquam nec velit sed urna suscipit ultrices. Quisque et hendrerit justo, at sollicitudin nunc. Suspendisse et molestie justo. Nullam vel velit ut eros mollis egestas quis quis leo.
+    .listado-iconos
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="Seguridad", class="img-fluid mb-4")
+                    h2.mb-4 SEGURIDAD
+                    p Nullam suscipit neque tortor, sit amet mattis odio lacinia non. Donec bibendum malesuada nunc, eget dignissim tortor finibus id.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="Seguridad", class="img-fluid mb-4")
+                    h2.mb-4 MEJORES DESTINOS
+                    p Nullam suscipit neque tortor, sit amet mattis odio lacinia non. Donec bibendum malesuada nunc, eget dignissim tortor finibus id.
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="Seguridad", class="img-fluid mb-4")
+                    h2.mb-4 MEJORES PRECIOS
+                    p Nullam suscipit neque tortor, sit amet mattis odio lacinia non. Donec bibendum malesuada nunc, eget dignissim tortor finibus id.
